@@ -10,11 +10,11 @@ const Container = Styled(SafeAreaView)`
 `;
 
 const Search = Styled(Searchbar)`
-    margin: 20px
+    margin: ${( props ) => props.theme.space[3]}
 `;
 const RestaurantsList = Styled(View)`
     flex: 1;
-    padding: 20px;
+    padding: ${( props ) => props.theme.space[3]};
 `;
 
 export const RestaurantsScreen = () => {
