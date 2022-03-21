@@ -42,7 +42,7 @@ const RestaurantCardInfo = ({ restaurant = {} }) => {
         name = 'Spoon Cafe',
         icon = 'https://reactnative.dev/img/tiny_logo.png' ,
         photos = [
-            'https://cdn.addresshotels.com/wp-content/uploads/2020/10/The-Restaurant-SV.jpg',
+            'https://thumbs.dreamstime.com/z/business-sign-says-open-cafe-restaurant-hang-door-entrance-business-sign-says-open-cafe-restaurant-178396907.jpg',
         ],
         address = '22 Sari St, Jeddah',
         isOpenNow = true,
